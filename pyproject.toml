@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "repro-pants-lockfile-fasttext"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = [{include = "repro_pants_lockfile_fasttext"}]
+
+[tool.poetry.dependencies]
+python = "~3.9"
+fasttext = "^0.9.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
